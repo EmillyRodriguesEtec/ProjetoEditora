@@ -1,0 +1,43 @@
+
+public class Autor {
+
+	private String nomeAutor;
+	private String cnttAutor;
+	private String cpfAutor;
+	
+	public void escreveLivro() {
+		
+	}
+	
+	public String ExibeAutor() {
+		this.setNomeAutor("Emilly");
+		System.out.println(this.getNomeAutor());
+		return this.ExibeAutor();
+	}
+	
+	
+	
+	public String getNomeAutor() {
+		return nomeAutor;
+	}
+
+	public void setNomeAutor(String nomeAutor) {
+		this.nomeAutor = nomeAutor;
+	}
+
+	public String getCnttAutor() {
+		return cnttAutor;
+	}
+
+	public void setCnttAutor(String cnttAutor) {
+		this.cnttAutor = cnttAutor;
+	}
+
+	public String getCpfAutor() {
+		return cpfAutor;
+	}
+
+	public void setCpfAutor(String cpfAutor) {
+		this.cpfAutor = cpfAutor;
+	}
+}

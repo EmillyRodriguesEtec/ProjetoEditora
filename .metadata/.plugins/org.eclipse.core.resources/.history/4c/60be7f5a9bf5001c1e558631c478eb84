@@ -1,0 +1,37 @@
+import java.util.List;
+
+public class TipoLivro {
+
+	private double precoUnitTipoLivro;
+	private int nmrTipoLivro;
+	private TipoLivroEnum tipoLivro;
+	private List<Livro> livro;
+	
+	public double getPrecoUnitTipoLivro() {
+		return precoUnitTipoLivro;
+	}
+	public void setPrecoUnitTipoLivro(double precoUnitTipoLivro) {
+		this.precoUnitTipoLivro = precoUnitTipoLivro;
+	}
+	public int getNmrTipoLivro() {
+		return nmrTipoLivro;
+	}
+	public void setNmrTipoLivro(int nmrTipoLivro) {
+		this.nmrTipoLivro = nmrTipoLivro;
+	}
+	public TipoLivroEnum getTipoLivro() {
+		return tipoLivro;
+	}
+	public void setTipoLivro(TipoLivroEnum tipoLivro) {
+		this.tipoLivro = tipoLivro;
+	}
+	public List<Livro> getLivro() {
+		return livro;
+	}
+	public void setCodLivro(List<Livro> livro) {
+		this.livro = livro;
+	}
+	public static void main(String[] args) {
+	
+	}
+}

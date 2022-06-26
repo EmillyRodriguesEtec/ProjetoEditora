@@ -1,0 +1,44 @@
+
+public class Fornecedor {
+
+	private String cnpjFornecedor;
+	private String localFornecedor;
+	private String rzSocialFornecedor;
+	private String cnpjEditora;
+	
+	public void fornecerMateriais() {
+		
+	}
+
+	public String getCnpjFornecedor() {
+		return cnpjFornecedor;
+	}
+
+	public void setCnpjFornecedor(String cnpjFornecedor) {
+		this.cnpjFornecedor = cnpjFornecedor;
+	}
+
+	public String getLocalFornecedor() {
+		return localFornecedor;
+	}
+
+	public void setLocalFornecedor(String localFornecedor) {
+		this.localFornecedor = localFornecedor;
+	}
+
+	public String getRzSocialFornecedor() {
+		return rzSocialFornecedor;
+	}
+
+	public void setRzSocialFornecedor(String rzSocialFornecedor) {
+		this.rzSocialFornecedor = rzSocialFornecedor;
+	}
+
+	public String getCnpjEditora() {
+		return cnpjEditora;
+	}
+
+	public void setCnpjEditora(String cnpjEditora) {
+		this.cnpjEditora = cnpjEditora;
+	}
+}

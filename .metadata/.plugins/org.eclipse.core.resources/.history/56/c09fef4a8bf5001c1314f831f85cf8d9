@@ -1,0 +1,63 @@
+
+public class Movimentacao {
+
+	private int nmrMov;
+	private String dataMov;
+	private String formaPagamento;
+	private String cnpjEditora;
+	private int codNF;
+	
+	public void gerarNotaFiscal() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Movimentacao movimentacao = new Movimentacao();
+		movimentacao.setNmrMov(793024);
+		movimentacao.setDataMov("16-oct-2009");
+		movimentacao.setFormaPagamento("boleto");
+		movimentacao.setCnpjEditora("10398547569684");
+		movimentacao.setCodNF(204732);
+		System.out.println(movimentacao.getNmrMov() + "\n" + movimentacao.getDataMov() + "\n" + movimentacao.getFormaPagamento() + "\n" + movimentacao.getCnpjEditora() + "\n" + movimentacao.getCodNF());
+	}
+
+	public int getNmrMov() {
+		return nmrMov;
+	}
+
+	public void setNmrMov(int nmrMov) {
+		this.nmrMov = nmrMov;
+	}
+
+	public String getDataMov() {
+		return dataMov;
+	}
+
+	public void setDataMov(String dataMov) {
+		this.dataMov = dataMov;
+	}
+
+	public String getFormaPagamento() {
+		return formaPagamento;
+	}
+
+	public void setFormaPagamento(String formaPagamento) {
+		this.formaPagamento = formaPagamento;
+	}
+
+	public String getCnpjEditora() {
+		return cnpjEditora;
+	}
+
+	public void setCnpjEditora(String cnpjEditora) {
+		this.cnpjEditora = cnpjEditora;
+	}
+
+	public int getCodNF() {
+		return codNF;
+	}
+
+	public void setCodNF(int codNF) {
+		this.codNF = codNF;
+	}
+}

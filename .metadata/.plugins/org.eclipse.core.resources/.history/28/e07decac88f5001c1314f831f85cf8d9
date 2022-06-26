@@ -1,0 +1,76 @@
+import java.util.List;
+
+public class Livro {
+
+	private String nomeLivro;
+	private String generoLivro;
+	private String descricaoLivro;
+	private String qntddLivro;
+	private String idiomaLivro;
+	private int codLivro;
+	private String cnpjEditora;
+	private String cpfAutor;
+	private String cpfRevisor;
+	private List<TipoLivro> tipos;
+	
+	public String getNomeLivro() {
+		return nomeLivro;
+	}
+	public void setNomeLivro(String nomeLivro) {
+		this.nomeLivro = nomeLivro;
+	}
+	public String getGeneroLivro() {
+		return generoLivro;
+	}
+	public void setGeneroLivro(String generoLivro) {
+		this.generoLivro = generoLivro;
+	}
+	public String getDescricaoLivro() {
+		return descricaoLivro;
+	}
+	public void setDescricaoLivro(String descricaoLivro) {
+		this.descricaoLivro = descricaoLivro;
+	}
+	public String getQntddLivro() {
+		return qntddLivro;
+	}
+	public void setQntddLivro(String qntddLivro) {
+		this.qntddLivro = qntddLivro;
+	}
+	public String getIdiomaLivro() {
+		return idiomaLivro;
+	}
+	public void setIdiomaLivro(String idiomaLivro) {
+		this.idiomaLivro = idiomaLivro;
+	}
+	public int getCodLivro() {
+		return codLivro;
+	}
+	public void setCodLivro(int codLivro) {
+		this.codLivro = codLivro;
+	}
+	public String getCnpjEditora() {
+		return cnpjEditora;
+	}
+	public void setCnpjEditora(String cnpjEditora) {
+		this.cnpjEditora = cnpjEditora;
+	}
+	public String getCpfAutor() {
+		return cpfAutor;
+	}
+	public void setCpfAutor(String cpfAutor) {
+		this.cpfAutor = cpfAutor;
+	}
+	public String getCpfRevisor() {
+		return cpfRevisor;
+	}
+	public void setCpfRevisor(String cpfRevisor) {
+		this.cpfRevisor = cpfRevisor;
+	}
+	public List<TipoLivro> getTipos() {
+		return tipos;
+	}
+	public void setTipos(List<TipoLivro> tipos) {
+		this.tipos = tipos;
+	}	
+}

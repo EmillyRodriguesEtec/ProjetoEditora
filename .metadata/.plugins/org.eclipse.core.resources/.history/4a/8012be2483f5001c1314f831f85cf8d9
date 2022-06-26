@@ -1,0 +1,53 @@
+
+public class Distribuidor {
+
+	private String cnpjDistribuidor;
+	private String localDistribuidor;
+	private String nomeDistribuidor;
+	private String cnttDistribuidor;
+	private String cnpjEditora;
+	
+	public void distribuirLivros() {
+		
+	}
+
+	public String getCnpjDistribuidor() {
+		return cnpjDistribuidor;
+	}
+
+	public void setCnpjDistribuidor(String cnpjDistribuidor) {
+		this.cnpjDistribuidor = cnpjDistribuidor;
+	}
+
+	public String getLocalDistribuidor() {
+		return localDistribuidor;
+	}
+
+	public void setLocalDistribuidor(String localDistribuidor) {
+		this.localDistribuidor = localDistribuidor;
+	}
+
+	public String getNomeDistribuidor() {
+		return nomeDistribuidor;
+	}
+
+	public void setNomeDistribuidor(String nomeDistribuidor) {
+		this.nomeDistribuidor = nomeDistribuidor;
+	}
+
+	public String getCnttDistribuidor() {
+		return cnttDistribuidor;
+	}
+
+	public void setCnttDistribuidor(String cnttDistribuidor) {
+		this.cnttDistribuidor = cnttDistribuidor;
+	}
+
+	public String getCnpjEditora() {
+		return cnpjEditora;
+	}
+
+	public void setCnpjEditora(String cnpjEditora) {
+		this.cnpjEditora = cnpjEditora;
+	}
+}

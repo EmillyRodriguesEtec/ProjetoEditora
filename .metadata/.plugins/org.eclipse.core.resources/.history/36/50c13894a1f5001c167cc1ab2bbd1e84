@@ -1,0 +1,35 @@
+
+public class Revisor {
+
+	private String nomeRevisor;
+	private String cnttRevisor;
+	private String cpfRevisor;
+	
+	public void revisarLivro() {
+		
+	}
+
+	public String getNomeRevisor() {
+		return nomeRevisor;
+	}
+
+	public void setNomeRevisor(String nomeRevisor) {
+		this.nomeRevisor = nomeRevisor;
+	}
+
+	public String getCnttRevisor() {
+		return cnttRevisor;
+	}
+
+	public void setCnttRevisor(String cnttRevisor) {
+		this.cnttRevisor = cnttRevisor;
+	}
+
+	public String getCpfRevisor() {
+		return cpfRevisor;
+	}
+
+	public void setCpfRevisor(String cpfRevisor) {
+		this.cpfRevisor = cpfRevisor;
+	}
+}

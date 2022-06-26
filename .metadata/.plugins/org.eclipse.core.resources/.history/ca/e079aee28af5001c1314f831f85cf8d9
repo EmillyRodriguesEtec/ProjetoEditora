@@ -1,0 +1,44 @@
+
+public class NotaFiscal {
+
+	private int codNF;
+	private double valorUnitNF;
+	private double valorTotalNF;
+	private String dataEmissao;
+	
+	public int emitirNotaFiscal() {
+		return codNF;
+	}
+
+	public int getCodNF() {
+		return codNF;
+	}
+
+	public void setCodNF(int codNF) {
+		this.codNF = codNF;
+	}
+
+	public double getValorUnitNF() {
+		return valorUnitNF;
+	}
+
+	public void setValorUnitNF(double valorUnitNF) {
+		this.valorUnitNF = valorUnitNF;
+	}
+
+	public double getValorTotalNF() {
+		return valorTotalNF;
+	}
+
+	public void setValorTotalNF(double valorTotalNF) {
+		this.valorTotalNF = valorTotalNF;
+	}
+
+	public String getDataEmissao() {
+		return dataEmissao;
+	}
+
+	public void setDataEmissao(String dataEmissao) {
+		this.dataEmissao = dataEmissao;
+	}
+}
